@@ -1,0 +1,237 @@
+* {
+    Margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #FEFAE0;
+}
+
+header{
+  width: 100vw;
+  height: 20vh;
+  background-color: #CCD5AE;
+  position: relative;
+}
+
+main{
+  width: 100vw;
+  height: 210vh;
+  position: relative;  
+}
+
+footer{
+  width: 100vw;
+  height: 20vh;
+  background-color: #FAEDCD;
+}
+/*modificamos el logo*/
+.encabezado__logo{
+  width: 200px;
+  height: 150px;
+  
+  
+}
+
+.encabezado__logo img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  bottom: 25px;
+  left: 5px;
+}
+
+/*modificamos nav*/
+nav{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+/*sacamos las viñetas*/
+ul{
+  list-style: none; 
+}
+
+.liHorizontal li{
+  display: inline-block;
+}
+
+nav a{
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#buscador {
+  position: absolute;
+  top: 50%;
+  padding: 8px;
+  right: 45%;
+}
+
+#login{
+display: inline-block;
+position: absolute;
+top: 27%;
+right: 56px;
+}
+
+#login img{
+  width: 24px;
+  height: 24px;
+}
+
+#carrito{
+display: inline-block;
+position: absolute;
+top: 23%;
+right: 20px;
+}
+
+h1{
+  font-size: 4em;
+  text-align: center;
+  padding: 20px;
+  color: #3e8e41;
+}
+
+/*le saco el subrayado a los links*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 18px;
+  left: 28px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: px 8px 16px px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.prueba1{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+#botonIrTienda a{
+padding-left: 759px;
+}
+
+#botonIrTienda button{
+  margin-top: 10px;
+  background-color: #D4A373;
+}
+
+.main__contacto{
+  width: 100vw;
+  height: 60vh;
+}
+
+.main__contacto form{
+  margin-left: 650px;
+  margin-top: 20px;
+}
+
+legend{
+font-size: 2em;
+}
+
+#btnFormulario{
+  background-color: #D4A373;
+}
+
+.main__Contacto--labelInput{
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  width: 33%;
+}
+
+#mainNosotros{
+  width: 100vw;
+  height: 60vh;
+}
+
+#mainNosotros iframe{
+  margin-left: 500px;
+  margin-top: 60px;
+}
+
+.footer__divs{
+  display: inline-block;
+  width: 33vw;
+  text-align: left;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 90px;
+}
+
+.footer__divs li{
+  padding: 3px;
+}
+
+.footer__divs img{
+  width: 16px;
+  height: 16px;
+}
+
+.footer__divs iframe{
+  height: 120px;
+  margin-top: 5px;
+}

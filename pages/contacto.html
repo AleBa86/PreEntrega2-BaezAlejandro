@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+<header class="encabezado" id="header">
+    <!-- logo -->
+<div class="encabezado__logo">
+    <a href="#header"><img src="../assets/images/logo.png" alt="Logo del vivero"></a>
+</div>    
+<!--barra de categorías-->
+<div class="dropdown">
+    <button class="dropbtn">Categorías</button>
+    <div class="dropdown-content">
+      <a href="#">Plantas</a>
+      <a href="#">Herramientas</a>
+      <a href="#">Macetas</a>
+    </div>
+  </div>
+  <!-- la idea es que esto sea una multilevel dropdown
+<div id="categorias">
+    <ul>
+        <li>Plantas
+            <ul>
+                <li>Interior</li>
+                <li>Exterior</li>
+            </ul>
+        </li>
+        <li>Herramientas
+            <ul>
+                <li>Electricas</li>
+                <li>Manuales</li>
+            </ul>
+        </li>
+        <li>Macetas
+            <ul>
+                <li>Interior</li>
+                <li>Exterior</li>
+            </ul>
+        </li>
+        <li>Semillas
+            <ul>
+                <li>Aromáticas</li>
+                <li>Flores</li>
+            </ul>
+        </li>        
+    </ul> 
+</div> -->
+<!--barra de navegación-->
+<nav>
+    <ul class="liHorizontal">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./tips.html">Cuidados y tips</a></li>       
+    </ul>
+</nav>
+<div id="buscador">
+    <input type="search" placeholder="ingrese aqui su busqueda">
+</div>
+
+<!--icono login-->
+<div id="login">
+    <a href="./login.html"><img src="../assets/icons/login.png" alt="Boton para Login"></a>
+</div>
+<!--icono carrito-->
+<div id="carrito">
+<a href="./cart.html"><img src="../assets/icons/carrito.png" alt="Boton carrito"></a>
+</div>
+</header>
+<main class="main__contacto">
+    <form action="" method="post" enctype="text/plain">
+        <legend class="main__Contacto--labelInput" >Dejanos tus consultas</legend>
+        <div>
+            <label class="main__Contacto--labelInput" for="name">Ingresa tu nombre</label>
+            <input class="main__Contacto--labelInput" type="text" id="name">
+        </div>
+        <div>
+            <label class="main__Contacto--labelInput" for="email">Ingresa tu email</label>
+            <input class="main__Contacto--labelInput" type="email" id="email">
+        </div>
+        <div>
+            <label class="main__Contacto--labelInput" for="celu">Mensaje</label>
+            <textarea class="main__Contacto--labelInput" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input class="main__Contacto--labelInput" id="btnFormulario"  type="submit">
+        </div>
+</form>
+</main>
+
+<footer>
+    <!--Links a las distintas paginas-->
+    <div class="footer__divs">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="./tienda.html">Tienda</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./tips.html">Cuidados y tips</a></li>       
+        </ul> 
+    </div>
+    <!--Links a las redes-->
+    <div class="footer__divs">
+        <ul>
+            <li><a href=""><img src="../assets/icons/whatsapp.png" alt=""> 1144448888</a></li>
+            <li><a href=""><img src="../assets/icons/insta.png" alt=""> Vivero Insta</a></li>
+            <li><a href=""><img src="../assets/icons/mail.png" alt=""> vivero@gmail.com</a></li>                  
+        </ul> 
+    </div>
+    <!--mapa-->
+    <div class="footer__divs">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52588.37800269804!2d-58.818137012852716!3d-34.53396288612437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc97cedf738c3b%3A0x2c748ea864075661!2sEl%20Viverito!5e0!3m2!1sen!2sar!4v1669751530813!5m2!1sen!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</footer>
+</body>
+</html>
