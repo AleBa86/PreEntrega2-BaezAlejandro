@@ -17,3 +17,38 @@ footer a{
 footer ul{
     list-style: none;
 }
+
+#tituloPrincipal{
+    height: 100px;
+}
+
+#tituloSecundario{
+    height: 100px;
+}
+
+#carouselExampleCaptions p{
+    color: black !important;
+}
+
+#carouselExampleCaptions h5{
+    color: black !important;
+}
+
+.zoom {
+    padding: 50px;
+    /*background-color: green;*/
+    transition: transform .6s;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+#linksProductosDestacados a{
+    text-decoration: none;
+}
