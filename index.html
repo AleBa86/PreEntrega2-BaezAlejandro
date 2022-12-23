@@ -4,125 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Vivero Online</title>
 </head>
 <body>
-<header id="header">
-    <!-- logo -->
-<div class="container">
-    <div class="row">
-        <a href="#header"><img src="./assets/images/logo-mod.png" alt="Logo del vivero"></a>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Categorías</button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Plantas</a></li>
-                    <li><a class="dropdown-item" href="#">Herramientas</a></li>
-                    <li><a class="dropdown-item" href="#">Macetas</a></li>
-                </ul>
+<header class="container" id="header">
+    <div class="d-flex justify-content-center">
+        <div>
+                <a href="index.html"><img src="./assets/images/logo-mod.png" alt="..."></a>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorías
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Herramientas</a></li>
+                                    <li><a class="dropdown-item" href="#">Macetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Plantas</a></li>
+                                </li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/tips.html">Cuidados y tips</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex " role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                            <div class="d-flex p-2">                    
+                                <a class="navbar" href="./pages/login.html"><img src="./assets/icons/login.png" alt=""></a>
+                                <a class="navbar" href="./pages/cart.html"><img src="./assets/icons/carrito.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/tienda.html">Tienda</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/tips.html">Cuidados y tips</a></li>       
-                </ul>
-            </nav>
         </div>
-        <div>
-            <input type="search" placeholder="ingrese aqui su busqueda">
-        </div>
-        <!--icono lupa-->
-        <div>
-            <a href="./pages/cart.html"><img src="./assets/icons/lupa32px.png" alt="Boton carrito"></a>
-        </div>
-        <!--icono login-->
-        <div>
-            <a href="./pages/login.html"><img src="./assets/icons/login.png" alt="Boton para Login"></a>
-        </div>
-        <!--icono carrito-->
-        <div>
-        <a href="./pages/cart.html"><img src="./assets/icons/carrito.png" alt="Boton carrito"></a>
-        </div>
-        
-    </div>
-</div> 
-
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./assets/images/logo-mod.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-<!--barra de categorías-->
-
-  <!-- la idea es que esto sea una multilevel dropdown
-<div id="categorias">
-    <ul>
-        <li>Plantas
-            <ul>
-                <li>Interior</li>
-                <li>Exterior</li>
-            </ul>
-        </li>
-        <li>Herramientas
-            <ul>
-                <li>Electricas</li>
-                <li>Manuales</li>
-            </ul>
-        </li>
-        <li>Macetas
-            <ul>
-                <li>Interior</li>
-                <li>Exterior</li>
-            </ul>
-        </li>
-        <li>Semillas
-            <ul>
-                <li>Aromáticas</li>
-                <li>Flores</li>
-            </ul>
-        </li>        
-    </ul> 
-</div> -->
-<!--barra de navegación-->
-
-</header>
+    </header>
 <main class="container">
     <h1>Productos Recomendados</h1>
     <!--comienzan las imagenes con sus descripciones-->
@@ -190,46 +126,32 @@
             </div>
         </div>
         </div>
-<!-- estas imagenes hay q alinearlas -->
-<!-- <div class="prueba">
-<div class="main__imagenesConInfo">
-    <div>
-    <img src="./assets/images/hands-1838658_640.jpg" alt="planta entregada en mano">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nihil assumenda cumque voluptatem placeat fugiat quasi. Ratione, earum. Dolore minima assumenda quam quis dolorum ullam in quas enim veniam corporis.</p>
-</div>
-<div>
-    <img src="./assets/images/online-shop-7090102_640.png" alt="tienda online">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nihil assumenda cumque voluptatem placeat fugiat quasi. Ratione, earum. Dolore minima assumenda quam quis dolorum ullam in quas enim veniam corporis.</p>
-</div>
-<div>
-    <img src="./assets/images/instagram-1789189_640.jpg" alt="redes sociales">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nihil assumenda cumque voluptatem placeat fugiat quasi. Ratione, earum. Dolore minima assumenda quam quis dolorum ullam in quas enim veniam corporis.</p>
-</div>
-</div> -->
 </main>
-<footer class="container">
-    <!--Links a las distintas paginas-->
-    <div>
-        <ul>
-            <li><a href="#header">Home</a></li>
-            <li><a href="./pages/tienda.html">Tienda</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="./pages/tips.html">Cuidados y tips</a></li>       
-        </ul> 
-    </div>
-    <!--Links a las redes-->
-    <div>
-        <ul>
-            <li><a href=""><img src="./assets/icons/whatsapp.png" alt=""> 1144448888</a></li>
-            <li><a href=""><img src="./assets/icons/insta.png" alt=""> Vivero Insta</a></li>
-            <li><a href=""><img src="./assets/icons/mail.png" alt=""> vivero@gmail.com</a></li>                  
-        </ul> 
-    </div>
-    <!--mapa-->
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52588.37800269804!2d-58.818137012852716!3d-34.53396288612437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc97cedf738c3b%3A0x2c748ea864075661!2sEl%20Viverito!5e0!3m2!1sen!2sar!4v1669751530813!5m2!1sen!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-1 d-flex align-items-center">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="./pages/tienda.html">Tienda</a></li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                    <li><a href="./pages/tips.html">Cuidados y tips</a></li>
+                </ul>  
+            </div>
+            <div class= "col-md-4 col-xs-1 d-flex align-items-center">
+                <ul>
+                    <li><a href=""><img src="../assets/icons/whatsapp.png" alt=""> 1144448888</a></li>
+                    <li><a href=""><img src="../assets/icons/insta.png" alt=""> Vivero Insta</a></li>
+                    <li><a href=""><img src="../assets/icons/mail.png" alt=""> vivero@gmail.com</a></li>                  
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-1 d-flex align-items-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52588.37800269804!2d-58.818137012852716!3d-34.53396288612437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc97cedf738c3b%3A0x2c748ea864075661!2sEl%20Viverito!5e0!3m2!1sen!2sar!4v1669751530813!5m2!1sen!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+      </div>  
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

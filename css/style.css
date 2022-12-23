@@ -1,0 +1,19 @@
+header{
+    background-color: #CED7B1;
+}
+
+main{
+    background-color: #FEFAE0;
+}
+
+footer{
+    background-color: #FAEDCD;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
