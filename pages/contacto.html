@@ -28,9 +28,9 @@
                                 Categorías
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Herramientas</a></li>
-                                    <li><a class="dropdown-item" href="#">Macetas</a></li>
-                                    <li><a class="dropdown-item" href="#">Plantas</a></li>
+                                    <li><a class="dropdown-item" href="./tienda.html">Herramientas</a></li>
+                                    <li><a class="dropdown-item" href="./tienda.html">Macetas</a></li>
+                                    <li><a class="dropdown-item" href="./tienda.html">Plantas</a></li>
                                 </li>
                             </ul>
                             <li class="nav-item">
@@ -59,25 +59,57 @@
             </div>
         </div>
     </header>
-<main>
-    <form action="" method="post" enctype="text/plain">
-        <legend class="main__Contacto--labelInput" >Dejanos tus consultas</legend>
-        <div>
-            <label class="main__Contacto--labelInput" for="name">Ingresa tu nombre</label>
-            <input class="main__Contacto--labelInput" type="text" id="name">
+<main class="pb-3">
+    <div class="container py-4">
+        <div class="row">
+          <div class="col">
+            
+          </div>
+          <div class="col-6">
+            <h3>Escribinos</h3>
+          </div>
+          <div class="col">
+            
+          </div>
         </div>
-        <div>
-            <label class="main__Contacto--labelInput" for="email">Ingresa tu email</label>
-            <input class="main__Contacto--labelInput" type="email" id="email">
+    </div>
+            <div class="container">
+        <div class="row">
+          <div class="col-3">
+            
+          </div>
+          <div class="col-6">
+            <form>
+                <div id="emailHelp" class="form-text">Por favor indicanos el motivo de tu consulta</div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona una opción</option>
+                    <option value="1">Asesoría en general</option>
+                    <option value="2">Tienda</option>
+                    <option value="3">Tuve un problema con una compra</option>
+                  </select>
+                <div class="mb-3 pt-3">
+                  <label for="" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Ingresa tu nombre.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Email</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text">Ingresa tu email.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar consulta</button>
+              </form>
+          </div>
+          <div class="col-3">
+            
+          </div>
         </div>
-        <div>
-            <label class="main__Contacto--labelInput" for="celu">Mensaje</label>
-            <textarea class="main__Contacto--labelInput" name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <input class="main__Contacto--labelInput" id="btnFormulario"  type="submit">
-        </div>
-</form>
+            </div>
 </main>
 
 <footer>
