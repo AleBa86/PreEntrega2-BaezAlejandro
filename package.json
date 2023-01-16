@@ -1,0 +1,28 @@
+{
+  "name": "sitio_web",
+  "version": "1.0.0",
+  "description": "De un análisis de mercado llevado a cabo por la Univeridad nacional de José C. Paz, se obtuvo información que las personas necesitan una sitio web que les brinde información y facilite la compra online de plantas, insumos, herramientas, etc. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleBa86/coder33145.git"
+  },
+  "author": "Alejandro G. Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleBa86/coder33145/issues"
+  },
+  "homepage": "https://github.com/AleBa86/coder33145#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,16 @@
+@mixin quitarEstilosLista($estiloLista, $decoracion){
+    list-style: $estiloLista;
+    text-decoration: $decoracion;
+}
+
+@mixin estiloH2($paddingTop, $paddingBotom, $alto){
+    padding-top: $paddingTop;
+    padding-bottom: $paddingBotom;
+    height: $alto;
+}
+
+@mixin estiloH3($paddingTop, $paddingBotom, $alto){
+    padding-top: $paddingTop;
+    padding-bottom: $paddingBotom;
+    height: $alto;
+}

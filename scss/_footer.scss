@@ -1,0 +1,27 @@
+footer{
+    background-color: $backgroundFooter;
+}
+
+footer{
+    div{
+        div{
+            div{
+                ul{
+                    @include quitarEstilosLista(none, none)
+                    li{
+                        a{
+                            @include quitarEstilosLista(none, none)
+                        }
+                    }
+                }
+            }
+            div{
+                ul{
+                    li{
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
