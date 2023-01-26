@@ -1,4 +1,7 @@
 main{
+    #linksProductosDestacados{
+        padding-top: 50px;
+    }
     #textoNosotros{
         
             article{
@@ -29,6 +32,12 @@ main{
     }
     a{
         text-decoration: none;
+        color: black;
+        &:hover{
+            font-weight: bolder;
+            font-size: 1rem;
+            color: $marronLinks;
+        }
     }
     h2{
         @include estiloH2(8px, 8px, 50px)
@@ -36,6 +45,7 @@ main{
     h3{
         @include estiloH3(10px, 10px, 50px)
     }
+    
 }
 #main404{
     body

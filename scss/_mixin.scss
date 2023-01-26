@@ -14,3 +14,13 @@
     padding-bottom: $paddingBotom;
     height: $alto;
 }
+
+@mixin estiloLinks($decoracionText, $fontWeight, $color, $fontWeightHover, $fontSizeHover, $colorHover){
+    text-decoration: $decoracionText;
+    font-weight: $fontWeight;
+    color: $color;
+    font-weight: $fontWeightHover;
+    font-size: $fontSizeHover;
+    color: $colorHover;
+
+}

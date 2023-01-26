@@ -1,3 +1,29 @@
 body{
+    a{
+        text-decoration: none;
+        color: $colorBlackImportant;
+        &:hover{
+            font-weight: bolder;
+            font-size: 1rem;
+            color: $marronLinks;
+        } 
+    }
     background-color: $backgroundBody;
+    div{
+        nav{
+            ol{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $colorBlackImportant;
+                        &:hover{
+                            font-weight: bolder;
+                            font-size: 1rem;
+                            color: $marronLinks;
+                        } 
+                    }
+                    }
+                }
+            }
+        }
 }

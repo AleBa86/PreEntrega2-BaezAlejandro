@@ -10,7 +10,14 @@ footer{
                     @include quitarEstilosLista(none, none)
                     li{
                         a{
+                            &:hover{
+                                font-weight: bolder;
+                                font-size: 1rem;
+                                color: $marronLinks;
+                            }
                             @include quitarEstilosLista(none, none)
+                            color: $marronLinks;
+                            
                         }
                     }
                 }

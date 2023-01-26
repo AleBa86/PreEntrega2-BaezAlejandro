@@ -8386,13 +8386,36 @@ textarea.form-control-lg {
 
 body {
   background-color: #FEFAE0; }
+  body a {
+    text-decoration: none;
+    color: black !important; }
+    body a:hover {
+      font-weight: bolder;
+      font-size: 1rem;
+      color: #bc6c25 !important; }
+  body div nav ol li a {
+    text-decoration: none;
+    color: black !important; }
+    body div nav ol li a:hover {
+      font-weight: bolder;
+      font-size: 1rem;
+      color: #bc6c25 !important; }
 
 header {
   background-color: #CED7B1; }
-  header #navbarSupportedContent ul li a:hover {
+  header #navbarSupportedContent ul li a {
     font-weight: bolder;
-    font-size: 1rem;
     color: black; }
+    header #navbarSupportedContent ul li a:hover {
+      font-weight: bolder;
+      font-size: 1rem;
+      color: #bc6c25 !important; }
+  header #navbarSupportedContent div a img {
+    width: 32px;
+    height: 32px; }
+
+main #linksProductosDestacados {
+  padding-top: 50px; }
 
 main #textoNosotros article {
   text-align: justify; }
@@ -8419,7 +8442,12 @@ main .zoom {
     transform: scale(1.1); }
 
 main a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
+  main a:hover {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #bc6c25 !important; }
 
 main h2, main .h2 {
   padding-top: 8px;
@@ -8473,7 +8501,12 @@ footer div div div ul {
   text-decoration: none; }
   footer div div div ul li a {
     list-style: none;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #bc6c25 !important; }
+    footer div div div ul li a:hover {
+      font-weight: bolder;
+      font-size: 1rem;
+      color: #bc6c25 !important; }
 
 footer div div div ul li {
   padding: 4px; }
