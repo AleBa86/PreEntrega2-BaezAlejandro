@@ -3,7 +3,7 @@ const envioGba = cactus => cactus + 1000;
 const envioInterior = cactus => cactus + 1700;
 
 let nombreUsuario = prompt("Hola bienvenido a nuestra pagina, por favor ingresa tu nombre:");
-alert("Recorda que nuestros cactus tienen un costo fijo de $1000, el envío varia en base a la localidad seleccionada.");
+alert("Recorda que nuestros cactus tienen un costo fijo de $1000, el envío varía en base a la localidad seleccionada.");
 let envioSeleccionado = prompt("Por favor ingresa la letra que se encuentra a la izquierda del envío deseado: \n A Envíos a CABA \n B Envíos a GBA \n C Envíos al Interior \nEscribí Cancelar, para anular la compra :(");
 let i = 1;
 while(envioSeleccionado != "Cancelar"){
@@ -29,6 +29,6 @@ while(envioSeleccionado != "Cancelar"){
     }
     
     nombreUsuario = prompt("Hola bienvenido a nuestra pagina, por favor ingresa tu nombre:");
-    alert("Recorda que nuestros cactus tienen un costo fijo de $1000, el envío varia en base a la localidad seleccionada.");
-    envioSeleccionado = prompt("Por favor ingresa la letra que se encuentra a la izquierda del envío deseado: \n A Envíos a CABA \n B Envíos a GBA \n C Envíos al Interior");
+    alert("Recorda que nuestros cactus tienen un costo fijo de $1000, el envío varía en base a la localidad seleccionada.");
+    envioSeleccionado = prompt("Por favor ingresa la letra que se encuentra a la izquierda del envío deseado: \n A Envíos a CABA \n B Envíos a GBA \n C Envíos al Interior \nEscribí Cancelar, para anular la compra :(");
 }
